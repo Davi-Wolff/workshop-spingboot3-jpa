@@ -50,11 +50,11 @@ public class User implements Serializable{
 		return orders;
 	}
 	
-	public Integer getInteger() {
+	public Integer getId() {
 		return id;
 	}
 	
-	public void setInteger(Integer id) {
+	public void setId(Integer id) {
 		this.id = id;
 	}
 	
